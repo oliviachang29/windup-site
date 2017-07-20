@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+	{% include head.html %}
+	<body>
+		<main class="content" aria-label="Content">
+			<div id="logo">
+				<h1>Windup</h1>
+				<div id="underline"></div>
+			</div>
+
+			<div id="inner-content">
+				<p class="large-text">Windup keeps all your programs in one place.</p>
+				<p class="large-text">Perfect for figure skating, gymnastics, and dance routines.</p>
+				<p class="medium-text">
+					intuitive
+					<span class="dot">•</span>
+					easy to use
+					<span class="dot">•</span>
+					convenient
+				</p>
+				<div class="row">
+					<div class="col-md-6 hidden-xs hidden-sm">
+						<img src="../assets/images/asdf.png" width="200">
+					</div>
+					<div class="col-md-6">
+						<a href="#">
+							<div id="app-icon">
+								<img src="../assets/images/windupicon.png" id="ios-icon-img">
+								<p class="app-icon-title">iPhone app</p>
+								<p class="app-icon-text"> > Get the app</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<span class="copyright">(c) 2017 Windup. All rights reserved.</span>
+				<br><br>
+				<span class="made-by">Made by Olivia Chang. <a href="mailto:{{site.email}}?Subject=Hello"> Contact me.</a></span>
+			</div>
+		</main>
+	</body>
+</html>
