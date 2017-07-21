@@ -17,7 +17,7 @@ title: Windup
 email: hello@windup.top
 description: Keep all of your routines in one place. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.windup.top" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
