@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Windup
-email: hello@windup.top
+email: hello@oliviachang.me
 description: Keep all of your routines in one place. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.windup.top" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://windup.oliviachang.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
