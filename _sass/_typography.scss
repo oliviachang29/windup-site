@@ -1,0 +1,14 @@
+@font-face {
+   font-family: Circular;
+   font-weight: normal;
+   src: url('/assets/fonts/Circular-Book.ttf');
+} 
+
+a {
+   color: inherit;
+   transition: .2s all;
+   &:hover {
+      color: black;
+      text-decoration: none;
+   }
+}
