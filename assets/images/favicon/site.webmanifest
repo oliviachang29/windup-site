@@ -1,5 +1,6 @@
 {
-    "name": "",
+    "name": "Windup",
+    "short_name": "Windup",
     "icons": [
         {
             "src": "/assets/images/favicon/android-chrome-192x192.png",

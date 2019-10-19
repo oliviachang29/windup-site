@@ -1,0 +1,78 @@
+@font-face {
+   font-family: Circular;
+   font-weight: normal;
+   src: url('/assets/fonts/Circular-Book.ttf');
+} 
+
+@font-face {
+   font-family: Circular;
+   font-weight: 500;
+   src: url('/assets/fonts/Circular-Medium.ttf');
+} 
+
+@font-face {
+   font-family: Circular;
+   font-weight: 700;
+   src: url('/assets/fonts/Circular-Bold.ttf');
+} 
+
+
+#logo {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #9B899E;
+}
+
+#underline {
+	width: 2.5em;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	background-color: #9B899E;
+	opacity: 0.8;
+}
+
+span {
+	opacity: 0.6;
+	font-size: 16px;
+	font-weight: 200;
+	color: #9B899E;
+}
+
+p {
+	opacity: 0.8;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: 0.25s all;
+	&:hover {
+		color: #544257;
+		text-decoration: none;
+	}
+}
+
+.large-text {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 60px;
+	color: #544257;
+}
+
+.medium-text {
+	font-size: 24px;
+	font-weight: 200;
+	margin-bottom: 20px;
+	color: #9B899E;
+}
+
+.hidden {
+	display: none;
+}
+
+#copyright {
+	margin: 0 auto;
+}
